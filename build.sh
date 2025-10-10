@@ -8,12 +8,12 @@ echo "Building for branch: $CF_PAGES_BRANCH"
 if [ "$CF_PAGES_BRANCH" == "main" ]; then
   # Production build
   echo "Building for production (main branch)..."
-  hugo --gc --minify -b https://markepps.com
+  hugo --gc --minify -b https://lab11.info
 
 elif [ "$CF_PAGES_BRANCH" == "staging" ]; then
   # Staging build
   echo "Building for staging..."
-  hugo --gc --minify -b https://staging.markepps-com.pages.dev
+  hugo --gc --minify -b https://staging.lab11-info.pages.dev
 
 else
   # Preview build (for all other branches)
