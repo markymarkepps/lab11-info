@@ -1,17 +1,10 @@
-baseURL: https://markepps.com/
+baseURL: https://lab11.info/
 languageCode: en-au
-title: markepps.com
+title: lab11.info
 theme: ["PaperMod"]
 copyright: © 2025 Mark Epps. Content licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
 params:
   defaultTheme: auto # to switch between dark or light according to browser theme
   homeInfoParams:
-    Title: Hi there!
-    Content: Personal website of Mark Epps
-
-  socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/markymarkepps"
-    - name: "instagram"
-      url: "https://www.instagram.com/markymarkepps/"
+    Title: lab11.info
