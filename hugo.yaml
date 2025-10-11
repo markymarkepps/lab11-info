@@ -1,12 +1,9 @@
 baseURL: https://lab11.info/
 languageCode: en-au
-title: lab11.info
-copyright: © 2025 Mark Epps. Content licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
-
+copyright: "© 2025 [Mark Epps](https://markepps.com). Content licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme: "terminal"
-
 pagination:
   pagerSize: 5
 
@@ -58,22 +55,15 @@ params:
   # Example format, with date, time, and timezone abbreviation:
   # dateFormat: "2006-01-02 3:04:06 PM MST"
 
-  twitter:
-    # set Twitter handles for Twitter cards
-    # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-    # do not include @
-    creator: ""
-    site: ""
-
 languages:
   en:
     languageName: "English"
     title: "lab11.info"
     params:
       subtitle: "A simple, retro theme for Hugo"
-      owner: ""
+      owner: "Mark Epps"
       keywords: ""
-      copyright: ""
+      copyright: "© 2025 [Mark Epps](https://markepps.com). Content licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
       menuMore: "Show more"
       readMore: "Read more"
       readOtherPosts: "Read other posts"
