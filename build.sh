@@ -12,7 +12,7 @@ if [ "$CF_PAGES_BRANCH" == "main" ]; then
 
 elif [ "$CF_PAGES_BRANCH" == "staging" ]; then
   # Staging build
-  echo "Building for staging..."
+  echo "Building for staging (staging branch)..."
   hugo --gc --minify -b https://staging.lab11-info.pages.dev
 
 else
